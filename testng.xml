@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Bank Admin Suite" thread-count="6" parallel="tests">
+
+    <test verbose="1" name="Existing_App_Test_Suite" group-by-instances="true">
+        <classes>
+            <class name="GridRunner"/>
+        </classes>
+    </test>
+
+    <test verbose="2" name="Existing_App_Test_Suite2" group-by-instances="true">
+        <classes>
+            <class name="GridRunner1"/>
+        </classes>
+    </test>
+
+    <test verbose="3" name="Existing_App_Test_Suite3" group-by-instances="true">
+        <classes>
+            <class name="GridRunner2"/>
+        </classes>
+    </test>
+</suite>
